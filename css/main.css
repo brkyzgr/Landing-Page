@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar Section */
+
+#navbar {
+    color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    background: #336ea2;
+    border-radius: 10px;
+}
+
+/* Home Section */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #336ea2;
+}
+
+#home img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+#home .name p {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+/* Projects */
+
+#projects {
+    color: yellow;
+    padding: 1rem;
+}
+
+#projects .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#projects .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#projects .items .item:hover {
+    color: cadetblue;
+    opacity: 0.6;
+}
+
+#skills {
+    color: #333;
+    padding: 1rem;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.skills .skill {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skills .skill .skill-image {
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.skills .skill .skill-image img{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.skills .skill .skill-image span {
+    background-color:blanchedalmond;
+    
+    padding: 0.25rem;
+    color: #333;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.skills .skill .skill-info .title {
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.skills .skill .skill-info .description {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    color: darkblue;
+    opacity: 0.6;
+}
+
+/* Contact */
+
+#contact {
+    color: yellow;
+    padding: 1rem;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#contact .contact-form ul li a {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#contact .contact-form ul li a:hover {
+    opacity: 0.8;
+}
